@@ -13,9 +13,10 @@
                         [midje "1.9.9"]
                         [ring/ring-core "1.8.1"]
                         [ring/ring-jetty-adapter "1.8.1"]
-                        [ring/ring-json "0.4.0"]
+                        [ring/ring-json "0.5.0"]
                         [clj-http "3.10.1"]
                         [cheshire "5.10.0"]]
          :plugins [[lein-midje "3.2.1"]
                    [lein-cloverage "1.2.0"]]}}
-  :test-paths ["test/unitarios" "test/aceitacao"])
+  :test-paths ["test/unitarios" "test/aceitacao"]
+  :uberjar-name "financeiro.jar")
